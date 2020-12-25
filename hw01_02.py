@@ -6,4 +6,4 @@ hours = time//(60*60)
 min = (time - hours*60*60)//60
 sec = time - (hours*60 + min)*60
 
-print (f'Время: {hours}:{min}:{sec} ')
+print (f'Время: {hours:2}:{min:2}:{sec:2} ')
