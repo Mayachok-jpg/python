@@ -14,3 +14,4 @@ text_list = text.split()
 
 for i, word in enumerate(text_list):
     print(f'{i+1} — {word[0:10]}')
+    
